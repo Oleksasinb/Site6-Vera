@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(234, 235, 217);
+}
+.mama {
+    width: 100%;
+    height: 3000px;
+}
+.text1 {
+    font-size: 60px;
+    text-align: center;
+}
+.text2 {
+    font-size: 50px;
+}
+.spisok {
+    width: 45%;
+    height: 200px;
+    background-color: rgb(24, 18, 117);
+    color: rgb(250, 250, 250);
+    border-radius: 10px
+}
+li {
+    margin-top: 30px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+li:hover {
+    font-size: 30px;
+}
+.spisok:hover {
+    width: 100%;
+    transition: 5s;
+}
+.spisok:not(:hover) {
+    transition: 5s;
+}
+.fa-ul {
+    padding: 2px;
+}
+.main {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(24, 18, 117);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.small {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: rgb(250, 250, 250);
+    transform: skew(15deg);
+    animation: skew 3s alternate infinite;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+@keyframes skew {
+    0% {
+        transform: skew(15deg)
+    }
+    100% {
+        transform: skew(-15deg);
+    }
+}
+p {
+    font-size: 17px;
+}
+.img1 {
+    width: 100%;
+    height: 300px;
+    background: url(https://zhitanska.com/wp-content/uploads/2018/02/kosmos.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.img2 {
+text-align: center;
+}
+.st {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.kartinki {
+    width: 99%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.star {
+    width: 33%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.DC {
+    width: 33%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.dc {
+    width: 99%;
+    height: 200px;
+    object-fit: contain;
+}
+.marvel {
+    width: 33%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.ma {
+    width: 99%;
+    height: 200px;
+    object-fit: contain;
+}
+.kol {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.per {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.pr {
+    width: 70%;
+    height: 300px;
+    object-fit: contain;
+}
+.photo {
+    object-fit: contain;
+    width: 100%;
+    height: 300px;
+}
+.vtr {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.vt {
+    width: 70%;
+    height: 300px;
+    object-fit: contain;
+}
+.trt {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.tr {
+    width: 70%;
+    height: 300px;
+    object-fit: contain;
+}
